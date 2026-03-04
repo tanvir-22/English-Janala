@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Janala | Learn English with Fun</title>
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+   <header >
+     <div class="navbar bg-base-100 shadow-sm bg-[#badeff58] md:px-20 ">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li><a class="text-xl"><i class="fa-solid fa-circle-question"></i>FAQ</a></li>
+            <li><a class="text-xl"><i class="fa-solid fa-book-open"></i>Learn</a></li>
+            <li><a class="text-xl"><i class="fa-solid fa-right-from-bracket"></i>Logout</a></li>
+      </ul>
+    </div>
+    <a href="#" class="flex   items-center gap-1"><span class="font-bold text-lg">English</span> <img src="/assets/logo.png" alt=""> <span class="bangla font-semibold text-xl">জানালা</span></a>
+  </div>
+  <div class="navbar-end hidden lg:flex">
+    <ul class="menu menu-horizontal px-1 gap-3">
+            <li><a class="btn btn-outline btn-primary"><i class="fa-solid fa-circle-question"></i>FAQ</a></li>
+            <li><a class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>Learn</a></li>
+            <li><a class="btn btn-outline btn-primary"><i class="fa-solid fa-right-from-bracket"></i>Logout</a></li>
+          </ul>
+      
+    
+    </ul>
+  </div>
+ 
+</div>
+   </header>
+
+   <section class="md:px-24">
+   <div class="container flex flex-col-reverse md:flex-row md:gap-5">
+     <div class="left flex-1 md:pt-48 text-center md:text-left">
+        <h1 class="text-5xl font-bold"><span class="text-[#00BCFF]">English</span> is Easy!!</h1>
+        <p class="bangla font-medium mt-6 md:w-3/4 leading-[30px]">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+       <div class="flex flex-col gap-5 md:w-1/2 items-center justify-center md:items-start">
+         <input class="px-3 py-2 border  text-gray-500 rounded-md border-gray-400"  type="text" name="" id="" placeholder="Enter Your Name">
+        <input class="px-3 py-2 border  text-gray-500 rounded-md border-gray-400" type="password" name="" id="" placeholder="*******">
+        <a href="" class="btn btn-active btn-primary">Get Started</a>
+       </div>
+    </div>
+    <div class="right flex-1">
+        <img class="w-full md:w-10/12" src="assets/hero-student.png" alt="">
+    </div>
+   </div>
+   </section>
+
+   <section class="mt-48 md:px-24">
+    <h1 class="font-bold text-4xl text-center"><span class="text-[#00BCFF]">Let's</span> Learn Vocabularies</h1>
+    <div class="lesson-containers mt-10 flex justify-center gap-3 flex-wrap">
+    </div>
+</section>
+
+
+    <section class="loader-section hidden flex justify-center items-center py-5">
+        <span class="loading loading-spinner loading-xl"></span>
+    </section>
+
+    <section class="search-section flex justify-center my-10">
+        <div class="join">
+  <div>
+    <label class="input validator join-item">
+     
+      <input class="search-input" type="text" placeholder="write a word to search..." />
+    </label>
+    <div class="validator-hint hidden">Enter valid email address</div>
+  </div>
+  <button class="btn btn-primary join-item search-button">Search</button>
+</div>
+    </section>
+
+<section class="main-word-container-section bg-gray-100 md:w-10/12  mt-3 mx-auto">
+    <div class=" pt-40 not-select  text-center mb-3">
+        <p class=" bangla text-gray-400 pb-4">আপনি এখনো কোন Lesson Select করেননি</p>
+        <h1 class="bangla font-bold text-3xl">একটি Lesson Select করুন।</h1>
+    </div>
+
+     <div class=" pt-40 next-lesson hidden  text-center mb-3">
+        <p class=" bangla text-gray-400 pb-4">এই Lesson এ এখনো কোন Vocabulary যুক্ত করা হয়নি।</p>
+        <h1 class="bangla font-bold text-3xl">নেক্সট Lesson এ যান</h1>
+    </div>
+    <div class=" mt-5 card-container p-20 text-center mb-3 grid grid-cols-1 md:grid-cols-3 gap-4">
+       
+        
+       
+    </div>
+</section>
+
+<section class="faq-section md:w-10/12 my-15 mx-auto">
+    <h1 class="font-bold text-4xl text-center mb-5"><span class="text-[#00BCFF]">Frequently</span> Asked Questions</h1>
+
+    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-2" checked="checked" />
+  <div class="collapse-title font-semibold">1. How can I start learning English on this website?</div>
+  <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+</div>
+<div class="collapse collapse-arrow bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-2" />
+  <div class="collapse-title font-semibold">2. Is this website free to use?</div>
+  <div class="collapse-content text-sm">Yes, the website offers free access to its learning resources.</div>
+</div>
+<div class="collapse collapse-arrow bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-2" />
+  <div class="collapse-title font-semibold">3.  Do I need to create an account?</div>
+  <div class="collapse-content text-sm">Yes, you need to create an account to access all the features of the website.</div>
+</div>
+<div class="collapse collapse-arrow bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-2" />
+  <div class="collapse-title font-semibold">4. How can I build my English vocabulary?</div>
+  <div class="collapse-content text-sm">You can build your English vocabulary by regularly practicing and reviewing new words.</div>
+</div>
+<div class="collapse collapse-arrow bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-2" />
+  <div class="collapse-title font-semibold">5. Do you offer certificates for completed courses?</div>
+  <div class="collapse-content text-sm">Yes, we provide certificates for courses that you complete successfully.</div>
+</div>
+
+</section>
+
+
+
+<footer class=" flex justify-between text-sm items-center border-t border-t-gray-200 w-11/12 mx-auto ">
+    <div class="left space-y-3 pt-20 ">
+        <div class="flex items-center">
+            <p class="font-semibold">English</p>
+            <img src="/assets/logo.png" alt="">
+            <p class="bangla font-semibold ">জানালা</p>
+        </div>
+        <p class="font-semibold">ইংরেজি শিখুন সহজে</p>
+        <p class="mb-2">Providing ED-Tech Applications since 2025</p>
+    </div>
+    <div class="right  ">
+        <p class="text-gray-500 mb-2">FOLLOW US</p>
+        <div class="flex gap-4">
+            <img class="w-[12%]" src="/assets/youtube-thumb.png" alt="">
+            <img class="w-[12%]" src="/assets/github-thumb.png" alt="">
+            <img class="w-[12%]" src="/assets/instagram-thumb.png" alt="">
+            <img class="w-[12%]" src="/assets/fb-thumb.png" alt="">
+        </div>
+    </div>
+</footer>
+
+
+<!-- modal -->
+ <!-- Open the modal using ID.showModal() method -->
+<!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+<dialog id="word_modal" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <div class="details_container">
+           
+           
+       
+    </div>
+    <div class="modal-action ">
+      <form class="myform" method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn btn-primary ">Complete Learning</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+<script src="/script.js"></script>
+</body>
+</html>
